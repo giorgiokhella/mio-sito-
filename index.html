@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Il mio primo sito - Giorgio Khella</title>
+    <style>
+        /* Sfondo nero e testo bianco come nel modello */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d0d0d;
+            color: #ffffff;
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        /* Riquadro superiore per Nome, Età e Scuola */
+        .intestazione {
+            background-color: #1c1e26;
+            border-left: 5px solid #0099ff;
+            border-radius: 8px;
+            padding: 20px 25px;
+            margin-bottom: 35px;
+        }
+
+        .intestazione h1 {
+            color: #0099ff;
+            margin-top: 0;
+            margin-bottom: 12px;
+            font-size: 32px;
+        }
+
+        .intestazione p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        /* Titoli delle sezioni con linea sottostante */
+        h2 {
+            color: #0099ff;
+            border-bottom: 1px solid #2b2b2b;
+            padding-bottom: 8px;
+            margin-top: 30px;
+            margin-bottom: 18px;
+            font-size: 24px;
+        }
+
+        /* Riquadri grigio scuro per competenze e hobby */
+        .scheda {
+            background-color: #191919;
+            border-radius: 8px;
+            padding: 18px 25px;
+            margin-bottom: 30px;
+        }
+
+        .scheda ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .scheda li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        .scheda li:last-child {
+            margin-bottom: 0;
+        }
+
+        .scheda p {
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        /* Galleria fotografica */
+        .galleria {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+        }
+
+        .galleria img {
+            width: 32%;
+            height: 180px;
+            object-fit: cover;
+            border: 1px solid #0099ff;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. I TUOI DATI -->
+    <div class="intestazione">
+        <h1>Ciao, sono Giorgio</h1>
+        <p><strong>Età:</strong> 15 anni | <strong>Scuola:</strong> Il tuo indirizzo di studi</p>
+    </div>
+
+    <!-- 2. LE COMPETENZE -->
+    <h2>Le mie competenze</h2>
+    <div class="scheda">
+        <ul>
+            <li>Utilizzo base del PC e creazione documenti</li>
+            <li>Primi passi con HTML e CSS</li>
+            <li>So aiutare a montare e smontare</li>
+        </ul>
+    </div>
+
+    <!-- 3. GLI HOBBY -->
+    <h2>I miei hobby</h2>
+    <div class="scheda">
+        <p>Nel tempo libero mi piace ascoltare musica, e giocare ai videogiochi, e uscire con i miei amici.</p>
+    </div>
+
+    <!-- 4. GALLERIA FOTOGRAFICA (3 IMMAGINI NUOVE) -->
+    <h2>Galleria fotografica</h2>
+    <div class="galleria">
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&q=80" alt="Musica">
+        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&q=80" alt="Videogiochi">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80" alt="Hardware e computer">
+    </div>
+
+</body>
+</html>
